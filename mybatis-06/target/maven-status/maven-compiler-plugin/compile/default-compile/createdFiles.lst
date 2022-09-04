@@ -1,0 +1,5 @@
+com\kuang\pojo\Teacher.class
+com\kuang\pojo\Student.class
+com\kuang\utils\MybatisUtils.class
+com\kuang\dao\StudentMapper.class
+com\kuang\dao\TeacherMapper.class

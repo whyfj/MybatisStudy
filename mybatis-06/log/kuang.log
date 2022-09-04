@@ -670,3 +670,275 @@
 [DEBUG][21-09-05][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
 [DEBUG][21-09-05][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
 [DEBUG][21-09-05][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-22][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-22][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-22][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-22][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-22][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-22][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-22][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-22][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-22][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-22][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-22][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-22][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][22-08-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][22-08-23][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VFS
+[DEBUG][22-08-23][org.apache.ibatis.io.JBoss6VFS]JBoss 6 VFS API is not available in this environment.
+[DEBUG][22-08-23][org.apache.ibatis.io.VFS]Class not found: org.jboss.vfs.VirtualFile
+[DEBUG][22-08-23][org.apache.ibatis.io.VFS]VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[DEBUG][22-08-23][org.apache.ibatis.io.VFS]Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Reader entry: Student.class
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Reader entry: Teacher.class
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Listing file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Student.class
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 \
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Find JAR URL: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Not a JAR: file:/D:/code/java/project/MybatisStudy/mybatis-06/target/classes/com/kuang/pojo/Teacher.class
+[DEBUG][22-08-23][org.apache.ibatis.io.DefaultVFS]Reader entry: ����   4 J
+[DEBUG][22-08-23][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Student matches criteria [is assignable to Object]
+[DEBUG][22-08-23][org.apache.ibatis.io.ResolverUtil]Checking to see if class com.kuang.pojo.Teacher matches criteria [is assignable to Object]
+[DEBUG][22-08-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-23][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][22-08-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1961595039.
+[DEBUG][22-08-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74eb909f]
+[DEBUG][22-08-23][com.kuang.dao.StudentMapper.getStudents2]==>  Preparing: select s.id sid, s.name sname , t.name tname from student s,teacher t where s.tid = t.id 
+[DEBUG][22-08-23][com.kuang.dao.StudentMapper.getStudents2]==> Parameters: 
+[DEBUG][22-08-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][22-08-23][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2018260103.
+[DEBUG][22-08-23][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@784c3487]
+[DEBUG][22-08-23][com.kuang.dao.StudentMapper.getStudents]==>  Preparing: select * from student 
+[DEBUG][22-08-23][com.kuang.dao.StudentMapper.getStudents]==> Parameters: 
